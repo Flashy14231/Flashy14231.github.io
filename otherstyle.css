@@ -1,0 +1,14 @@
+html { 
+    background: url("Comingsoon.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  @media screen and (max-width: 1024px) { 
+    html {
+      left: 50%;
+      margin-left: -512px; 
+    }
+  }
