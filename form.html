@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+  <html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Feedback & Comments</title>
+        <link rel="stylesheet" type="text/css" href="formstyle.css">
+        <meta name="description" content="form"/>
+        <meta name="author" content="Harry Xu, ningxuan.xu@gmail.com"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      </head>
+    
+      <form action="formprocess.php" method="POST">
+        <p>
+            <label for="inputName">Name:<sup>*</sup></label>
+            <input type="text" name="name" id="inputName">
+        </p>
+        <p>
+            <label for="inputEmail">Email:<sup>*</sup></label>
+            <input type="text" name="email" id="inputEmail">
+        </p>
+        <p>
+            <label for="inputSubject">Subject:</label>
+            <input type="text" name="subject" id="inputSubject">
+        </p>
+        <p>
+            <label for="inputComment">Message:<sup>*</sup></label>
+            <textarea name="message" id="inputComment" rows="5" cols="30"></textarea>
+        </p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+  </html>
